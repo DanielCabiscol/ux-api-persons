@@ -1,0 +1,51 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
+
+<dom-module id="ux-api-persons">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+  
+    <h1>Llista de contactes</h1>
+
+    
+    <iron-ajax
+       auto
+       url="peopleList.json"
+       handle-as="json"
+       on-response="{{response}}"></iron-ajax>
+    ></iron-ajax>
+
+  </template>
+
+  <script>
+    /**
+     * `ux-api-persons`
+     * An api that obtains person information like name, surname, birthdate, etc
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class UxApiPersons extends Polymer.Element {
+      static get is() { return 'ux-api-persons'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'ux-api-persons'
+          },
+
+          response: {
+            type: Object
+          }
+        };
+      }
+    }
+
+    window.customElements.define(UxApiPersons.is, UxApiPersons);
+  </script>
+</dom-module>
