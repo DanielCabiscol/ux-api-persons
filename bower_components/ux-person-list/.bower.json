@@ -4,7 +4,7 @@
   "main": "ux-person-list.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
-    "ux-person": "https://github.com/DanielCabiscol/ux-person"
+    "ux-person": "danielcabiscol/ux-person"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
@@ -14,15 +14,14 @@
   "resolutions": {
     "polymer": "^2.0.0"
   },
-  "homepage": "https://github.com/danielCabiscol/ux-person-list",
-  "_release": "3d501f15d4",
+  "homepage": "https://github.com/danielcabiscol/ux-person-list",
+  "_release": "3956159af4",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "3d501f15d4de442f9fd4af0f9394f280fee3b2a4"
+    "commit": "3956159af4f014ab7ada78b4e260f0e7b974aa5a"
   },
-  "_source": "https://github.com/danielCabiscol/ux-person-list.git",
+  "_source": "https://github.com/danielcabiscol/ux-person-list.git",
   "_target": "*",
-  "_originalSource": "danielCabiscol/ux-person-list",
-  "_direct": true
+  "_originalSource": "danielcabiscol/ux-person-list"
 }
