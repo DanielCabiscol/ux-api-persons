@@ -4,7 +4,8 @@
   "main": "ux-api-persons.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
-    "iron-ajax": "PolymerElements/iron-ajax#^2.0.2"
+    "iron-ajax": "PolymerElements/iron-ajax#^2.0.2",
+    "ux-person-list": "danielCabiscol/ux-person-list"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",

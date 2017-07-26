@@ -1,0 +1,28 @@
+{
+  "name": "ux-person-list",
+  "description": "A list of person cards with information",
+  "main": "ux-person-list.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "ux-person": "https://github.com/DanielCabiscol/ux-person"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  },
+  "homepage": "https://github.com/danielCabiscol/ux-person-list",
+  "_release": "3d501f15d4",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "3d501f15d4de442f9fd4af0f9394f280fee3b2a4"
+  },
+  "_source": "https://github.com/danielCabiscol/ux-person-list.git",
+  "_target": "*",
+  "_originalSource": "danielCabiscol/ux-person-list",
+  "_direct": true
+}

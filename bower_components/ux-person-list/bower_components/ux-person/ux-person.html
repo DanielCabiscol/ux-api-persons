@@ -1,0 +1,75 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="/bower_components/paper-item/paper-icon-item.html">
+<link rel="import" href="/bower_components/iron-icons/social-icons.html">
+<link rel="import" href="/bower_components/iron-icons/communication-icons.html">
+<link rel="import" href="/bower_components/paper-item/paper-item-body.html">
+
+<dom-module id="ux-person">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+</style>
+
+    <paper-icon-item>
+      <iron-icon icon="social:person" slot="item-icon">
+      </iron-icon>
+      <paper-item-body two-line>
+        <div>[[person.first_name]]</div>
+        <div secondary>Nom</div>
+      </paper-item-body>
+      <paper-item-body two-line>
+        <div>[[person.last_name]]</div>
+        <div secondary>Cognom</div>
+      </paper-item-body>
+    </paper-icon-item>
+
+    <paper-icon-item>
+      <iron-icon icon="icons:flag" slot="item-icon">
+      </iron-icon>
+      <paper-item-body two-line>
+        <div>[[person.country]]</div>
+        <div secondary>País</div>
+      </paper-item-body>
+    </paper-icon-item>
+
+    <paper-icon-item>
+      <iron-icon icon="communication:email" slot="item-icon">
+      </iron-icon>
+      <paper-item-body two-line>
+        <div>[[person.email]]</div>
+        <div secondary>email</div>
+      </paper-item-body>
+    </paper-icon-item>
+
+  </template>
+
+  <script>
+    /**
+     * `ux-person`
+     * person card example
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class UxPerson extends Polymer.Element {
+      static get is() { return 'ux-person'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'ux-person'
+          },
+
+          person: {
+            type: Object
+          }
+        };
+      }
+    }
+
+    window.customElements.define(UxPerson.is, UxPerson);
+  </script>
+</dom-module>
