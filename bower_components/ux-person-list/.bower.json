@@ -15,11 +15,11 @@
     "polymer": "^2.0.0"
   },
   "homepage": "https://github.com/danielcabiscol/ux-person-list",
-  "_release": "a9e0db865e",
+  "_release": "8c339fa09f",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "a9e0db865ec1129cc85841004a1af0caf4651ecd"
+    "commit": "8c339fa09f8c32307cb4784e173549ed7c4f2928"
   },
   "_source": "https://github.com/danielcabiscol/ux-person-list.git",
   "_target": "*",
