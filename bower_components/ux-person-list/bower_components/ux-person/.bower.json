@@ -7,7 +7,8 @@
     "paper-item": "PolymerElements/paper-item#^2.0.0",
     "iron-icon": "PolymerElements/iron-icon#^2.0.0",
     "iron-icons": "PolymerElements/iron-icons#^2.0.1",
-    "ux-dialog": "danielcabiscol/ux-dialog"
+    "ux-dialog": "danielcabiscol/ux-dialog",
+    "paper-styles": "PolymerElements/paper-styles#^2.0.0"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
@@ -18,13 +19,14 @@
     "polymer": "^2.0.0"
   },
   "homepage": "https://github.com/danielcabiscol/ux-person",
-  "_release": "da241ef2a5",
+  "_release": "43fd720967",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "da241ef2a57fc5136ed74df02826ddd99811b01e"
+    "commit": "43fd720967a55132bfefd6ae7a32d337c581ae7d"
   },
   "_source": "https://github.com/danielcabiscol/ux-person.git",
   "_target": "*",
-  "_originalSource": "danielcabiscol/ux-person"
+  "_originalSource": "danielcabiscol/ux-person",
+  "_direct": true
 }
